@@ -1,0 +1,50 @@
+/* Styles for Assignment 1 Webpage*/
+
+body{
+    background-color: bisque;
+    font-size: 1.1em;
+    font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    
+}
+
+p{
+    background-color: bisque;
+    font-size: 1.1em;
+    font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+}
+
+table, th, tr, td{
+    background-color: bisque;
+    border-style: hidden;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+dd{
+    text-indent: 25px;
+    font-size: 1.1em;
+}
+
+
+/* Classes */
+
+.artificialList{
+    font-size: .90em;
+    text-indent:50px; 
+}
+
+
+.fun_images{  
+    height:326px;  
+    width:245px;  
+}
+
+/*
+.project_images{
+    height:409px;
+    width:340px;
+}
+*/

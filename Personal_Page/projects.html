@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Projects </title>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/coherent.css">
+
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas style="background-color:bisque">
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./fun.html">About Me</a></li>
+               
+            </ul>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x">
+                    <button type="button" class="cell auto button" data-toggle="offCanvas">Open Menu</button>
+                </div>
+
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12">
+                        <h4 style="font-family:cursive">
+                            Here are a few projects I've worked on:
+                        </h4><br>
+                    </div>
+
+                    <div class="cell small-12 ">
+                        <p>&#8226;<span style="font-weight:bold;">ROTC email created in Salesforce for University of St. Thomas Students </span><br>
+                            &nbsp;&nbsp;&nbsp; I made this using HTML and CSS in Salesforce while working in the IT department at my university. It was sent out at the beginning of the Fall semester to recruit students to the ROTC detachment at UST; It reached ~1300 students. <br><br>
+                        </p>
+                    </div>
+
+                    <div class="cell small-12 large-6"> 
+                        <img class="project_images" src="./images/rotc_email.jpg" alt="ROTC Email for Students"> <br>
+                    </div>
+
+
+                    <div class="cell small-12">
+                        <br><br><p> &#8226;<span style="font-weight:bold;">Coffee Kiosk created in Java</span> <br>
+                            &nbsp;&nbsp;&nbsp; I made this in Java while in college. The purpose was to use multiple Java classes to implement an interactive coffee kiosk that allows you to customize a coffee, purchase a mug, display the total, and pay the amount displayed. It was probably one of my favorite projects in college, and was really neat to implement; It took 12 different files to create, and it involved using abstract classes, abstract interfaces, and classes that extend off others. The overall purpose was to showcase what we've learned in Object-Oriented programming, and create something a user could interact with. <br><br>
+                        </p>
+                    </div>
+                
+                    
+
+                    <div class="cell small-12 large-6"> 
+                        <img class="project_images" src="./images/coffee.jpg" alt="Coffee Kiosk project: console output"> <br>
+                    </div>
+
+
+                    <div class="cell small-12">
+                        <br><br><p> &#8226;<span style="font-weight:bold;">Epoch Time Converter in Java</span> <br>
+                            &nbsp;&nbsp;&nbsp;This was the first Java project I've ever made: An Epoch Time Converter. Made using one class, this program takes three inputs: A valid day, month, and year (If the date is invalid the program will output an error and close). It then converts that date into Epoch (Unix) time, or the number of seconds since January 1st, 1970; It can also go into the negatives if a date prior to 1970 is input. Being my first project, the code was nothing special, and the style was all over the place, but it has checks in place so that it computes dates correctly, and even outputs a random date from the year that was input. 
+                        <br><br>
+                        </p>
+                    </div>
+
+                    <div class="cell small-12 large-6"> 
+                        <img class="project_images" src="./images/epoch.jpg" alt="Epoch Time converter project: console output"> <br><br><br><br>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
