@@ -1,4 +1,5 @@
 John Morrison - Senior Capstone Reflection Paper 
+
 This is my repository for my final in my capstone course. In my repository, I've linked my St. Paul Crime API web page project, my database microbialite project, and my personal web page project. 
 I chose these because I thought these projects really fell in line with St. Thomas's mission, goals, and values. As a computer scientist, finding projects that go hand 
 in hand with the common good can seem challenging, but after further thought and choosing between projects, I've come to the conclusion that these three are best suited for the prompt,
