@@ -1,2 +1,9 @@
-Microbialite Website
-Do It For Him
+This folder includes my database design project I completed for a professor at UST. It's a very simple website that connects to a database and allows a user to interact with said database via queries or simply examining data. We built this for the professor as a means to access his database easier and faster, and later presented the final project to him and to our surprise, he got a good kick out of it. The webpage is based off his work with microbialites in Nevada, and the data he provided us. I worked with a group of 4 other teammates, and worked on planning the project, modeling the project, meeting with the professor, and working on actually implementing our ideas over various meetings before finishing the site and showing it off.
+
+HOW TO RUN:
+1. Load up files in a code editor.
+2. Run the index.html file
+3. The page should load in a browser, from there click any of the menu buttons (such as Waypoint Data)
+4. The page runs with SQL, but the form should have placeholders in the forms if you don't know what values to input
+5. If you choose 'SELECT' and input nothing, the page will display all current rows present in the table (AKA page you're on). Click 'Home' to go back to the main page.
+6. After modifying data, click the 'Reset' button to reset any changes made to the database.
